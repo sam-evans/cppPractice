@@ -1,10 +1,12 @@
 #include <iostream>
-
+/*
+Leetcode problem link: https://leetcode.com/problems/n-th-tribonacci-number/
+T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0.
+first 3 (T0-T2) sequence defined as 0,1,1
+t3 = 2
+t4 = t(4-1) + t(4-2) +t(4-3) = 2 + 1 + 1 = 4
+*/
 using namespace std;
-// T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0.
-// first 3 (T0-T2) sequence defined as 0,1,1
-// t3 = 2
-// t4 = t(4-1) + t(4-2) +t(4-3) = 2 + 1 + 1 = 4
 class Solution{
 
 public:
